@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="The hands of the scribes" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, user-scalable=0.0"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    >
+
+    <title>{{ title }} by {{ author }}</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script type="module" src="/scripts/invoker.js"></script>
+    <script type="module" src="/scripts/font-size.js"></script>
+    <script type="module" src="/scripts/page-turner.js"></script>
+
+    <script type="application/ld+json">
+      {{ JSON.stringify({
+        "@context": "http://schema.org",
+        "@type": "Book",
+        name: title,
+        author,
+        description,
+        url,
+      }) }}
+    </script>
+  </head>
+
+  <body>
+    <page-turner>
+      <button data-page="previous">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path></svg>
+      </button>
+      <button data-page="next">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path></svg>
+      </button>
+    </page-turner>
+
+    <dialog id="controls" class="menu">
+      <div class="menu-options">
+        <font-size>
+          <button data-size="small">A</button>
+          <button data-size="medium">A</button>
+          <button data-size="normal">A</button>
+          <button data-size="big">A</button>
+          <button data-size="xbig">A</button>
+        </font-size>
+
+        <button class="menu-close" aria-label="Close" command="close" commandfor="controls">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path></svg>
+        </button>
+      </div>
+
+      <nav class="toc">
+        <h2>Table of Contents</h2>
+
+        <ol>
+          {{ for item of toc }}
+          <li>
+            <a href="#{{ item.slug }}">{{ item.text }}</a>
+          </li>
+          {{ /for }}
+        </ol>
+      </nav>
+    </dialog>
+
+    <div class="book">
+      <div class="page">
+        <h2>How to read</h2>
+        <p>
+          <i>On a phone:</i>
+          <br />Tap the edges of the page
+        </p>
+        <p>
+          <i>On a computer:</i>
+          <br />Click the edges of the page, or use the arrow keys,
+          the&nbsp;space&nbsp;bar, the&nbsp;trackpad,
+          or&nbsp;the&nbsp;scroll&nbsp;wheel
+        </p>
+        <p>
+          <i>On paper:</i>
+          <br />Print it out
+        </p>
+        <p>Basically, <small>everything works</small></p>
+      </div>
+
+      <!-- tutorial -->
+
+      <img class="cover" src="{{ cover }}" alt="Book cover" />
+
+      <div class="title">
+        <h1>{{ title }}</h1>
+        <p>{{ author }}</p>
+      </div>
+
+      {{ content }}
+
+      <div class="page"></div>
+
+      <div class="bookmark">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          version="1.1"
+          x="0px"
+          y="0px"
+          width="100%"
+          height="100%"
+          viewBox="0 0 40 80"
+          xml:space="preserve"
+        >
+          <g>
+            <polygon points="0,0 0,80 20,70 40,80 40,0" />
+          </g>
+        </svg>
+      </div>
+      <!-- bookmark -->
+    </div>
+    <!-- book -->
+
+    <button class="menu-button" command="show-modal" commandfor="controls">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256"><path d="M80,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H88A8,8,0,0,1,80,64Zm136,56H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,64H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16ZM44,52A12,12,0,1,0,56,64,12,12,0,0,0,44,52Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,116Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,180Z"></path></svg>
+    </button>
+  </body>
+</html>

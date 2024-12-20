@@ -1,0 +1,131 @@
+.book {
+  column-gap: var(--column-gap);
+  column-fill: auto;
+  column-count: auto;
+  column-width: var(--column-width);
+  height: var(--column-height);
+  width: var(--column-width);
+  margin-left: var(--column-gap);
+  margin-top: var(--vertical-margin);
+  widows: 2;
+  orphans: 2;
+
+  > * {
+    max-width: var(--column-width);
+  }
+
+  h2 {
+    margin: 4em 0 1em 0;
+    padding: 0;
+    break-inside: avoid;
+    break-before: avoid;
+    font-family: var(--font-heading);
+    font-style: italic;
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 1.2;
+    text-wrap: balance;
+  }
+
+  a {
+    color: var(--color-spot);
+
+    &:hover {
+      color: inherit;
+    }
+    &:visited {
+      color: var(--color-visited);
+    }
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+    text-indent: 1em;
+  }
+
+  footer {
+    margin-top: 1em;
+    text-indent: 0;
+
+    p {
+      text-indent: 0;
+    }
+  }
+
+  img {
+    display: block;
+    break-before: column;
+    break-after: column;
+    width: var(--column-width);
+    height: var(--column-height);
+    overflow: hidden;
+    object-fit: contain;
+  }
+
+  hr {
+    break-after: avoid-column;
+    width: 50%;
+    margin: 3em auto;
+    border: none;
+    border-bottom: 1px solid var(--color-spot);
+  }
+
+  > h1,
+  .title,
+  .chapter,
+  .page {
+    break-inside: avoid;
+    break-after: always;
+    break-before: always;
+    width: var(--column-width);
+    height: var(--column-height);
+    padding: 1px;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    h1 {
+      font-size: 3em;
+      line-height: 1;
+      font-weight: 500;
+      font-variant: small-caps;
+      font-variant-caps: small-caps;
+    }
+
+    p {
+      margin: 2em 0;
+      font-size: 1.5em;
+    }
+  }
+
+  > h1,
+  .chapter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3em;
+    font-weight: 500;
+    font-feature-settings: "kern", "liga", "smcp", "ss11";
+    font-variant: small-caps;
+    font-variant-caps: small-caps;
+    text-align: center;
+    text-transform: lowercase;
+  }
+
+  .bookmark {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: calc(var(--column-width) / 2);
+    width: 2rem;
+    height: 4rem;
+    transform: translateX(-50%);
+    fill: var(--color-spot);
+    z-index: 2;
+  }
+}

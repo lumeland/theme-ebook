@@ -1,0 +1,126 @@
+.menu-button {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--border-radius);
+  top: 30px;
+  right: 30px;
+  width: var(--button-size);
+  height: var(--button-size);
+  cursor: pointer;
+  background: var(--color-paper);
+  border: 1px solid currentColor;
+  z-index: 3;
+  color: var(--color-spot);
+
+  &:hover {
+    background-color: var(--color-focus);
+  }
+
+  svg {
+    fill: currentColor;
+  }
+}
+body:has(.menu[open]) .menu-button {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: auto;
+  max-height: 100vh;
+  width: min(100%, 500px);
+  height: calc(100vh - 40px);
+  border-radius: calc(var(--border-radius) + 8px);
+  border: none;
+  margin: 0;
+  padding: 10px;
+  background: var(--color-paper);
+}
+.menu-options {
+  display: flex;
+  column-gap: 10px;
+  justify-content: space-between;
+}
+
+.menu-close {
+  width: var(--button-size);
+  height: var(--button-size);
+  padding: 0;
+  border: solid 1px;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--color-spot);
+  border-radius: var(--border-radius);
+
+  svg {
+    fill: currentColor;
+  }
+
+  &:hover {
+    background-color: var(--color-focus);
+  }
+}
+
+font-size {
+  display: flex;
+  border: solid 1px;
+  width: fit-content;
+  height: var(--button-size);
+  border-radius: var(--border-radius);
+  overflow: clip;
+  color: var(--color-spot);
+
+  button {
+    border: none;
+    background: none;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 20px;
+    font-family: var(--font-text);
+    line-height: 1;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      background-color: var(--color-focus);
+    }
+  }
+
+  button[aria-pressed="true"] {
+    background-color: var(--color-spot);
+    color: var(--color-paper);
+  }
+}
+.toc {
+  color: var(--color-text);
+  padding: 20px;
+
+  h2 {
+    font-size: 1.25em;
+    margin: 0;
+  }
+
+  a {
+    color: var(--color-spot);
+    text-decoration: none;
+    display: block;
+
+    &:hover {
+      text-decoration: underline;
+      color: var(--color-text);
+    }
+    &:visited {
+      color: var(--color-visited);
+    }
+  }
+}

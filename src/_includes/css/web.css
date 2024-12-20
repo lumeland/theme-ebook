@@ -1,0 +1,93 @@
+:root {
+  --base-unit: clamp(28px, 5vh, 48px);
+  --vertical-margin: 50px;
+  --column-width: clamp(320px, 66vw, 640px);
+  --column-gap: calc((100vw - var(--column-width)) / 2);
+  --column-height: calc(100svh - var(--vertical-margin) * 2);
+  --font-size: 1.5rem;
+  --font-text: text, serif;
+  --font-heading: text, serif;
+  --border-radius: 6px;
+  --color-paper: hsl(100 50% 99%);
+  --color-text: rgb(5 5 5);
+  --color-selection: hsl(340 100% 75%);
+  --color-spot: hsl(340 100% 50%);
+  --color-visited: hsl(340, 40%, 50%);
+  --color-focus: hsl(340, 100%, 95%);
+  --button-size: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: var(--column-gap);
+  color: var(--color-text);
+  background: var(--color-paper);
+  text-rendering: optimizelegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 0;
+  font-size: var(--font-size);
+  font-family: var(--font-text);
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+::selection {
+  background: var(--color-selection);
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+button:focus {
+  outline: 0;
+}
+:focus {
+  outline: solid 1px var(--color-spot);
+  outline-offset: 4px;
+}
+
+page-turner {
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 0;
+
+  button {
+    height: 100vh;
+    width: max(var(--column-gap), 100px);
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text);
+
+    @media (width < 500px) {
+      color: var(--color-focus);
+    }
+
+    &:hover {
+      color: var(--color-spot);
+    }
+
+    &:active {
+      background: radial-gradient(
+        circle at center,
+        var(--color-focus) 50px,
+        transparent 50px
+      ) no-repeat;
+    }
+
+    svg {
+      fill: currentColor;
+    }
+  }
+}
