@@ -49,5 +49,9 @@ export default function (userOptions?: Options) {
         "scripts/invoker.js",
         "https://cdn.jsdelivr.net/npm/invokers-polyfill@latest",
       );
+    site.hooks.markdownIt((md) => {
+      md.options.linkify = true;
+      md.options.typographer = true;
+    });
   };
 }

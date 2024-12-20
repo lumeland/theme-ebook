@@ -38,10 +38,60 @@
     }
   }
 
+  a.header-anchor {
+    text-decoration: none;
+    color: inherit;
+
+    &:focus-visible {
+      color: var(--color-spot);
+    }
+
+    &:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.2em;
+    }
+  }
+
   p {
     margin: 0;
     padding: 0;
     text-indent: 1em;
+  }
+
+  blockquote {
+    border-left: solid 1px var(--color-spot);
+    margin: 2em 0;
+    padding-left: 1em;
+    break-inside: avoid;
+    font-style: italic;
+
+    p {
+      text-indent: 0;
+    }
+  }
+
+  code, kbd {
+    font-family: var(--font-code);
+    font-size: 0.8em;
+  }
+
+  pre > code {
+    display: block;
+    overflow: auto;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    text-align: left;
+    padding: 0.2em 0.5em;
+    border: solid 1px var(--color-spot);
+  }
+  th {
+    background-color: var(--color-selection);
   }
 
   footer {

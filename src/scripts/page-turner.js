@@ -1,3 +1,5 @@
+const scrollingElement = document.body;
+
 class PageTurner extends HTMLElement {
   connectedCallback() {
     const next = this.querySelector('button[data-page="next"]');
@@ -10,7 +12,7 @@ class PageTurner extends HTMLElement {
       if (event.key === "ArrowRight") {
         event.preventDefault();
         if (event.metaKey || event.ctrlKey) {
-          this.go(document.scrollingElement.scrollWidth);
+          this.go(scrollingElement.scrollWidth);
         } else {
           this.go();
         }
@@ -26,6 +28,15 @@ class PageTurner extends HTMLElement {
         this.go(!event.shiftKey);
       }
     });
+
+    let timeout;
+
+    scrollingElement.addEventListener("scroll", () => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => {
+        this.go(scrollingElement.scrollLeft);
+      }, 250);
+    });
   }
 
   go(next = true) {
@@ -35,12 +46,13 @@ class PageTurner extends HTMLElement {
     const step = columnWidth + columnGap;
 
     const min = 0;
-    const max = document.scrollingElement.scrollWidth;
+    const max = scrollingElement.scrollWidth;
     const value = typeof next === "number"
       ? next
-      : document.scrollingElement.scrollLeft + (next ? step : -step);
+      : scrollingElement.scrollLeft + (next ? step : -step);
 
-    document.scrollingElement.scrollLeft =
+    scrollingElement.scrollTop = 0;
+    scrollingElement.scrollLeft =
       Math.round(Math.min(max, Math.max(min, value)) / step) * step;
     history.replaceState(null, "", document.location.pathname);
   }
