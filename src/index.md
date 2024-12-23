@@ -104,11 +104,9 @@ never thought of me again.
 
 "Well, anyway, she's been gone a whole day now, or near enough, and the board of
 directors... they are not calm people, Scheme. Not calm at all. It's a big
-operation, the ABCD. I really think---"
+operation, the ABCD. I really think"
 
 "I'll take the case," Scheme said. "We'll meet you on the bay."
-
----
 
 Scheme's electric pickup was parked across the street. Today, the jam factory
 was simmering 300 pounds of seascape strawberries; the air was thick with them.
@@ -125,8 +123,8 @@ I wondered if Scheme had worked up any theories.
 "Sure. Most likely explanation is, Stella Pajunas was never real to start with.
 Ectoplasmic projection. Mass hallucination, maybe."
 
-Scheme was theorizing that the ABCD---really, the whole Bay Area---had been
-managed for ten years by a mass hallucination?
+Scheme was theorizing that the ABCDreally, the whole Bay Areahad been managed
+for ten years by a mass hallucination?
 
 "It would explain some things, wouldn't it?"
 
@@ -156,7 +154,7 @@ back."
 "No idea, but she's screaming a lot." In the background, we heard a shriek.
 "Stuff about the bay. How they didn't fill it. I don't know. What did she just
 say, Lucy?" A voice replied. "Okay, yeah. She just said, it was all a mistake
-and now---yeah, she's crying. Anyway. I still think you should come."
+and nowyeah, she's crying. Anyway. I still think you should come."
 
 Dramatic enough way for a mystery to begin.
 
@@ -200,7 +198,7 @@ gravity. "I had a strange day."
 Her burrito, after all, had gone splat.
 
 "Maybe so. As such, I am now, as you can imagine, inexpressibly behind. So, I
-must get to it! We'll reimburse you for your mileage. Now---"
+must get to it! We'll reimburse you for your mileage. Now"
 
 "When you came back," Scheme interrupted. "You were shouting. Do you remember
 what you said? Something about how they didn't fill the bay. Some kind of
@@ -311,7 +309,7 @@ paintings depicted ghostly figures caught mid-gesture. Here, a man looking over
 his shoulder, indecision palpable; there, a woman leaping neatly over a puddle.
 Small moments made meaningful by the work's monumental scale.
 
-Lobo took a step towards the nearest canvas. "Do you want to see my newest---"
+Lobo took a step towards the nearest canvas. "Do you want to see my newest"
 
 "No," Scheme said flatly. "I need your cameras."
 
@@ -339,21 +337,20 @@ of computers sat whirring beneath the hay loft, and a bank of monitors fluttered
 through an endless flip-book of images snatched from street corners and parking
 lots, bank lobbies and dispensary lines.
 
-I looked back at the canvases. Suddenly, the grain of security camera
-footage---the blotch, the gloom---was unmistakable. The cameras were Lazar
-Lobo's muses.
+I looked back at the canvases. Suddenly, the grain of security camera footagethe
+blotch, the gloomwas unmistakable. The cameras were Lazar Lobo's muses.
 
 "Lazar doesn't review all the footage himself," Scheme explained. "Impossible.
-Instead, he programs his assistants here"---she patted one of the
-computers---"to identify interesting compositions, which he then copies."
+Instead, he programs his assistants here"she patted one of the computers"to
+identify interesting compositions, which he then copies."
 
 "The Cartier-Bresson algorithm," Lobo sniffed, "is only the beginning of my
 process."
 
 Explaining the case to him, Scheme sketched out an algorithm of her own. She
 wanted to know where in the Bay Area, in the last six months, a figure had
-disappeared suddenly---there one frame, gone the next---and then reappeared in
-the same spot approximately one day later.
+disappeared suddenlythere one frame, gone the nextand then reappeared in the
+same spot approximately one day later.
 
 "That does happen sometimes," Lobo said. "Usually it's a glitch in the camera."
 
@@ -361,9 +358,9 @@ the same spot approximately one day later.
 
 He sat down in front of the monitors, Scheme leaning in beside him. I wandered
 back to the enormous canvases. One of Lobo's paintings captured two men
-embracing on a street corner---no, not just embracing: clinging together, like
-they would never see each other again. Another showed a woman at an ATM, her
-face crumpled in utter defeat.
+embracing on a street cornerno, not just embracing: clinging together, like they
+would never see each other again. Another showed a woman at an ATM, her face
+crumpled in utter defeat.
 
 And then I saw Scheme. Even through the haze of the security camera, which Lazar
 Lobo's brush reproduced so faithfully, it was unquestionably her. And, unlike
@@ -408,7 +405,7 @@ back, "Come on, Will! Thank you, Lazar! _Come on, Will_!"
 
 The Bay Area's greatest detective staked out the sidewalk in front of the
 butcher shop in Berkeley. Twenty-four hours earlier, a woman had appeared on
-this spot---just appeared, with a quiet pop---then strode away confidently. Now,
+this spotjust appeared, with a quiet popthen strode away confidently. Now,
 Annabel Scheme was bent on tracking her down.
 
 In fact, it was me staking out the sidewalk, while Scheme got lunch from the
@@ -491,7 +488,7 @@ _Talk to me about timelines..._
 
 "Okay," she started, "_First of all_, we didn't fill in the bay."
 
-Oh, right. What---where she came from, San Francisco Bay was just a giant,
+Oh, right. Whatwhere she came from, San Francisco Bay was just a giant,
 untouched body of water?
 
 "Uh, yes. That's the _point_. Do you not have any environmentalists here? I've
@@ -500,14 +497,14 @@ _grim_." Lois sipped her coffee. "Sorry." She wasn't sorry.
 
 "So," Scheme said, "is this just a hobby of yours? Reality tourism?"
 
-"I wouldn't come here if I didn't have to. And"---Lois looked down at her
-watch---"lucky for all of us, my chariot has arrived!"
+"I wouldn't come here if I didn't have to. And"Lois looked down at her
+watch"lucky for all of us, my chariot has arrived!"
 
 She squared up and her face took on the expectant look of a Star Trek character
 about to be transported. That was apparently the cue; Scheme leapt, tried for a
 tackle, but only succeeded in getting a hand on Lois's boxy bag before the woman
-from another world neatly knocked her aside, using some kind of move---aikido?
-robot?---that sent Scheme tumbling across the pavement.
+from another world neatly knocked her aside, using some kind of moveaikido?
+robot?that sent Scheme tumbling across the pavement.
 
 "Seriously?" Lois scoffed. She cinched her bag higher up on her shoulder and
 disappeared with a quiet, sucking pop.
@@ -549,7 +546,7 @@ going to see a witch."
 
 The Bay Area's greatest detective had deposited one half of a pair of magic
 earrings into the boxy and fashionable bag of a visitor from another world, the
-unflappable Lois. The earrings were, by long association, linked---even between
+unflappable Lois. The earrings were, by long association, linkedeven between
 branches of reality.
 
 Could Annabel Scheme reconnect them?
@@ -689,11 +686,11 @@ like Superman. Instead, I tend to float around like a beachball. It's still
 thrilling to be up in the air, but I can only go where the wind takes me.
 
 In this dream, the witch's dream, I am lifted from my perch atop Mount Tamalpais
-and lofted down toward the bulk of the bay---but it is not my bay. Nothing's
-been dammed, nothing paved. There are no skyscrapers shadowing Treasure Island.
-All the cities of the bay---West Alameda, Moletown, the Island of the Cats
-(neither an island, nor home to cats)---are absent. Peralta City, where I grew
-up, is open water.
+and lofted down toward the bulk of the baybut it is not my bay. Nothing's been
+dammed, nothing paved. There are no skyscrapers shadowing Treasure Island. All
+the cities of the bayWest Alameda, Moletown, the Island of the Cats (neither an
+island, nor home to cats)are absent. Peralta City, where I grew up, is open
+water.
 
 And then I am tumbling down into San Francisco, which is not the heirloom bauble
 that I know, but a half-gleaming metropolis with a skinny pyramid and a fat
@@ -728,13 +725,12 @@ worth the trouble.
 But then I see, at the base of the tower, an enormous facility, people in lab
 coats moving from building to building. They're wearing masks, too. I am pulled
 toward one of the buildings, sucked through one of its narrow, fortress-like
-windows---I shouldn't fit, but I do---and inside, I understand why I've been
-drawn here. Here is the boxy, fashionable bag into which the detective Annabel
-Scheme deposited her crystal earring. Here is the bag's owner, the cool and
-confident Lois, sipping a smoothie. And here, beside Lois, is a man I don't
-recognize.
+windowsI shouldn't fit, but I doand inside, I understand why I've been drawn
+here. Here is the boxy, fashionable bag into which the detective Annabel Scheme
+deposited her crystal earring. Here is the bag's owner, the cool and confident
+Lois, sipping a smoothie. And here, beside Lois, is a man I don't recognize.
 
-"---pieces in place," the man is saying. "What about Dr. Gatua?"
+"pieces in place," the man is saying. "What about Dr. Gatua?"
 
 "He's in," Lois says. "He's ecstatic. It proves his theory. We don't even have
 to boop him over and back to show him it's real. He _wants_ to believe."
@@ -767,7 +763,7 @@ Lois finishes her smoothie with an empty, rattling slurp. "Nope."
 A deep rumble from the world outside draws my attention. From this perch, high
 up on this hill, I can see all the way to the Marin Headlands, where the gray
 curve of Mount Tamalpais is crumbling. Trees lean over and slough off. The
-mountain is waking, and so am---
+mountain is waking, and so am
 
 <hr/>
 
@@ -784,7 +780,7 @@ How nice for you."
 Hadn't Scheme seen the same world? The people in masks?
 
 "Ah. Yes, I did see it. But more... impressionistically. I was inside the gears
-of a giant machine---which I understood, dream-wise, to be the greatest and most
+of a giant machinewhich I understood, dream-wise, to be the greatest and most
 dangerous to ever exist on this planet. Those gears ground me into dust, which
 was painful, but worthwhile, because it meant I was distributed throughout the
 machine's workings and able to determine its function. Did I mention it was
@@ -801,7 +797,7 @@ timelines. Bay Zero. Bay Prime."
 Perhaps they would do it by combining different parts from different versions.
 
 Scheme's eyes widened. "Of course. Stella Pajunas. She's terrible, but she's
-brilliant---the most capable administrator the Bay Area has ever had. Maybe the
+brilliantthe most capable administrator the Bay Area has ever had. Maybe the
 most capable ANY Bay Area has ever had. Will, they didn't abduct her. They
 recruited her."
 
@@ -827,8 +823,8 @@ political enough, that reality had bent to match her opinion.
 Arbusto Slab, the ABCD's security chief, stood alongside the detective Annabel
 Scheme at the back of the scrum.
 
-"She's been acting fishy," Slab said. "This whole thing"---he gestured to the
-reporters---"got put together in two days. She talked the board into it. I don't
+"She's been acting fishy," Slab said. "This whole thing"he gestured to the
+reporters"got put together in two days. She talked the board into it. I don't
 have any traction, Scheme. Sorry to say it, but this case is closed."
 
 Stella Pajunas stepped up to the podium.
@@ -844,13 +840,13 @@ One of those lasers that marks a target so a plane can drop a bomb on it.
 
 "Today, we arrive at another turning point. Science is critically important to
 the Bay Area, and government has often accelerated its progress at critical
-moments. Today, the ABCD is investing---"
+moments. Today, the ABCD is investing"
 
 I didn't hear the number she said next, because I temporarily blacked out. It
 earned a wave of gasps and even a few choked sobs from the scrum of reporters.
 It was a very large amount of money.
 
-"---dollars into the rapid development of the world's first quantum alignment
+"dollars into the rapid development of the world's first quantum alignment
 station," Stella Pajunas continued. "Just as that Spanish ship encountered a new
 world on the other side of the Golden Gate, quantum alignment is going to reveal
 new worlds hiding in plain sight."
@@ -866,10 +862,10 @@ secret. They're building the machine, or part of it. Maybe they need one in
 every world."
 
 On stage, Dr. Gatua's face shone with 60 years' worth of vindication. He was
-explaining how many scientists and engineers they would gather---thousands---and
-how fast they would work---very---but the reporters were still buzzing about the
-number of dollars, which was on the scale of the Manhattan Project. It was
-nation-state money.
+explaining how many scientists and engineers they would gatherthousandsand how
+fast they would workverybut the reporters were still buzzing about the number of
+dollars, which was on the scale of the Manhattan Project. It was nation-state
+money.
 
 "Thank you, Dr. Gatua," Stella Pajunas said. "The Bay Area is a special place
 with a special history. Together, we will make history again. We're calling this
@@ -1042,7 +1038,7 @@ Rumer Lee sighed. "I'm so hungry. Please."
 of my building."
 
 On her phone, she showed us a snapshot of the tag, written in neat capitals,
-neon green---truly gruesome against the pink---that read: ENTRA LA LENGUA.
+neon greentruly gruesome against the pinkthat read: ENTRA LA LENGUA.
 
 Was that some kind of slang? Was it lascivious? Was it... yerby?
 
@@ -1077,14 +1073,14 @@ Scheme had shaken down her best and nerdiest sources; none of them could make
 sense of it. So, we were headed back to Rose Quartz Records, Scheme muttering to
 herself, when we heard a scrap of conversation from a phone kiosk:
 
-"...new teeth? For LENGUA, yeah." A teenager---excruciatingly cool-looking, her
-hair shimmering iridescent---was making a purchase. "_Thank_ you, yerb," she
-said, accepting her merchandise. "I've been _dying_ out here."
+"...new teeth? For LENGUA, yeah." A teenagerexcruciatingly cool-looking, her
+hair shimmering iridescentwas making a purchase. "_Thank_ you, yerb," she said,
+accepting her merchandise. "I've been _dying_ out here."
 
 Scheme sidled up to the kiosk, which sold burner phones, vape pens, and other
-electronics disposable and nefarious. After a medium-long negotiation---I heard
-her say, "I am _not_ anyone's *grand*mother"---she returned, dangling two
-plastic clamshells.
+electronics disposable and nefarious. After a medium-long negotiationI heard her
+say, "I am _not_ anyone's *grand*mother"she returned, dangling two plastic
+clamshells.
 
 "Mx. Portacio, meet your new teeth."
 
@@ -1212,8 +1208,8 @@ The only sound was the rustling of bodies and, from somewhere above, the muffled
 boom of a yerbacore beat. As Scheme pressed further in, the teens swiveled to
 track our passage. Their youth cascaded across their mouths in perfect sync.
 
-We found the kitchen, and beyond the kitchen---surprisingly tidy---we found a
-long room filled with the detritus of the building's former inhabitants. Old
+We found the kitchen, and beyond the kitchensurprisingly tidywe found a long
+room filled with the detritus of the building's former inhabitants. Old
 ergonomic chairs. Filing cabinets. Dead monitors. The floor was thick with
 cables; they ran in loops and tangles toward a door at the room's far end. We
 stepped lightly.
@@ -1250,7 +1246,7 @@ Scheme smiled sweetly. "Technically Demondre, do you run this network?"
 He perked up. "You know it, yerb! This right here is the heart of the LENGUA.
 L-E-N-G-U-A. That stands for Local Empathetic Network Granting Underground
 Access." He sounded like he had been waiting a long time to tell someone that.
-"I came up with the words after I chose the---"
+"I came up with the words after I chose the"
 
 "We can tell," Scheme said. She stepped closer, looking directly at him. You
 rarely wanted Scheme looking directly at you. "We need to find someone on the
@@ -1260,8 +1256,8 @@ Demondre shrugged helplessly. "There's no search. That's the whole point. No
 search, no tracking, no ads. Whatever happens, happens. Then it's gone."
 
 "That's great. I love it. But you run the network, and all of these teeth are
-connected to that"---she stabbed a finger at the server rack---"and we are
-trying to save the world."
+connected to that"she stabbed a finger at the server rack"and we are trying to
+save the world."
 
 Scheme dropped into an ergonomic chair and told Demondre the whole story,
 starting with the disappearance of Stella Pajunas. She told him about our
@@ -1348,16 +1344,16 @@ the world where I'm hiding? Will you spoil my haven?"
 "No," Scheme said. "Of course not. We need your help."
 
 We took places around the fire, and Scheme began to unspool the saga. "This will
-sound strange, but there are other worlds like ours---and other Bay Areas. One
-of them has become our enemy. They call themselves Bay One, and---"
+sound strange, but there are other worlds like oursand other Bay Areas. One of
+them has become our enemy. They call themselves Bay One, and"
 
 "Yes," Quintessandra interrupted. "I know."
 
 Scheme's mouth hung open.
 
 "In their world, they didn't pave the bay," Quintessandra said. "They didn't
-build"---she made an airy gesture that encompassed the ship, the city,
-everything---"any of this. I know. I've seen it. They tried to recruit me."
+build"she made an airy gesture that encompassed the ship, the city,
+everything"any of this. I know. I've seen it. They tried to recruit me."
 
 "Of course," Scheme muttered. "You must have been the first person they wanted."
 
@@ -1372,7 +1368,7 @@ The way Scheme said it, it was clear she expected the answer to be "transform
 into a giant robot and smash Bay One," but Quintessandra let out a bleak sigh.
 "Nothing. It's a failure. The teeth were supposed to help us understand each
 other, so we could work together to beat Bay One. No words to get in the way, no
-arguments---just a _feeling_."
+argumentsjust a _feeling_."
 
 "It didn't work?"
 
@@ -1487,16 +1483,15 @@ only its wealth: Google had been enlisted, its quantum computing division
 stripped for parts, and Intel, too. Their chip designers were salivating over
 the radical new designs provided, without explanation, by the ABCD.
 
-At the South Barrier, we turned east and barreled through Salt City, headed
-for---
+At the South Barrier, we turned east and barreled through Salt City, headed for
 
 "Where... is... FREMONT?" Scheme howled.
 
 The city had been selected as the site of Alta Bay City Development's grand
 science project, an event the city's leadership had greeted with jubilation. But
-now, mere weeks later, the BART station, the mall, the Bollywood theater---all
-of them were gone, replaced by a sprawling facility sprouting a skeletal tower,
-the new highest point in the Bay Area.
+now, mere weeks later, the BART station, the mall, the Bollywood theaterall of
+them were gone, replaced by a sprawling facility sprouting a skeletal tower, the
+new highest point in the Bay Area.
 
 "_That_?" Quintessandra squeaked. "_That's_ what you want to beat with a song?"
 
@@ -1564,16 +1559,16 @@ case was closed."
 
 Scheme was unruffled. "I'm glad we found you, Slab."
 
-A look of consternation crossed his face. "It was me that found y---"
+A look of consternation crossed his face. "It was me that found y"
 
 She ignored him. "This is Quintessandra. I don't think she has a last name." The
 pop star tech genius waved. "We need to get her to the transmitter. I know
-Pajunas must have a one somewhere, so---"
+Pajunas must have a one somewhere, so"
 
 "Scheme. I'm here to stop you."
 
 "Slab, we found out what they're doing. It's not just a science project. This
-facility is designed to---"
+facility is designed to"
 
 "Merge everything into Bay One. Yeah. I know."
 
@@ -1593,7 +1588,7 @@ He shook his head. "Sorry, Scheme. You should come with me now."
 "Absolutely not."
 
 "Ease up, will you? Pajunas will explain. It's not as bad as it sounds. Now,
-don't---"
+don't"
 
 Scheme popped him in the jaw. I knew she had martial arts training, but I had
 never seen her strike anyone, and: she popped him good. Arbusto Slab, six feet
@@ -1619,7 +1614,7 @@ teeth.
 I called out for Scheme and Quintessandra to stop.
 
 "LENGUA...?" Scheme said. "Of course. There's at least one cool person in this
-place. Maybe more. Quintessandra---listen."
+place. Maybe more. Quintessandralisten."
 
 She conferred quietly with the pop star tech genius.
 
@@ -1653,7 +1648,7 @@ nose was bleeding.
 "Scheme!" he roared. "Enough."
 
 I expected her to turn and run. I expected her to produce some useful gadget
-from a hidden pocket. I expected her to pop him again, pop all of them---but
+from a hidden pocket. I expected her to pop him again, pop all of thembut
 instead, she offered her hands.
 
 "You're right, Slab. We give up."
@@ -1689,8 +1684,7 @@ unsteadily.
 "You can't stop this process. And even if you blew up this facility... wait, did
 you check her for explosives? Good. Even if you blew up this facility, there are
 23 others just like it in 23 other Bay Areas. You think we're stupid? We built a
-buffer. So, relax. This will all be over in"---she checked her watch---"two
-hours."
+buffer. So, relax. This will all be over in"she checked her watch"two hours."
 
 Vacal Chander spoke, and his tone was genuinely conciliatory. "I'm sorry this
 has to happen, but I've seen what the Bay Area can become. Quantum alignment
@@ -1704,7 +1698,7 @@ Scheme growled at him. She actually growled. She went: grr.
 Chander looked down at his feet. His accomplice Lois stepped into the breach.
 "Many of the people in this world will be merged with other versions." Her voice
 grew cold. "Not you, Annabel Scheme. In my Bay Area, you're dead. But! Plenty
-of---"
+of"
 
 "Excuse me," Dr. Gatua quavered. He was peering up at the status display. "It
 appears that... er. Why is Bay Three offline? Is that part of the alignment
@@ -1790,9 +1784,9 @@ sky-taquerias floated serenely above; I saw a bay where everyone had a home.
 I saw a bay from which a monster rose, dark as the water, inchoate as fog. It
 was no invader; it had been there from the beginning. It was spiteful and
 jealous, a dragon guarding its hoard against thieves, against life, against
-change, but a figure opposed it, a warrior, her head circled in flame---
+change, but a figure opposed it, a warrior, her head circled in flame
 
-I saw a bay---I was the bay---I was lost---
+I saw a bayI was the bayI was lost
 
 Then, I felt myself being reeled in, a fish on a line, dragged back through the
 worlds I'd traversed, a kaleidoscope of possibilities, until I landed with a wet
@@ -1803,8 +1797,8 @@ out prone inside a strange outline, a complicated knot, its border drawn with
 strips of seaweed. What had happened?
 
 "Don't ask me," Carlotta said. "I just harvest seaweed and fight the occasional
-demon. But, I felt your peril, you and Annabel both, so I made these"---she
-indicated the shapes on the floor---"as quickly as I could."
+demon. But, I felt your peril, you and Annabel both, so I made these"she
+indicated the shapes on the floor"as quickly as I could."
 
 Shapes, plural. There was a knot for Annabel Scheme, but it was empty.
 
@@ -1849,7 +1843,7 @@ bright red hair and a taste for pickup trucks. If you meet her, say:
 _"Annabel Scheme"? What the yerb kind of name is that?_
 
 This will be the signal that you know who she is, what world she's from. Say
-it---but then, before she can answer, interrupt, and tell her that Will and
+itbut then, before she can answer, interrupt, and tell her that Will and
 Quintessandra and Carlotta all miss her.
 
 Tell her we're going to bring her home.

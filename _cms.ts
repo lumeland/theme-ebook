@@ -7,7 +7,7 @@ cms.document({
   description: "Information about a book",
   store: "src:_data.yml",
   fields: [
-    "title: text",
+    "text",
     "description: text",
     "author: text",
     "cover: file",

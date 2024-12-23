@@ -40,6 +40,12 @@ body:has(.menu[open]) .menu-button {
   margin: 0;
   padding: 10px;
   background: var(--color-paper);
+
+  &[open] {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    row-gap: 10px;
+  }
 }
 .menu-options {
   display: flex;
@@ -104,6 +110,9 @@ font-size {
 .toc {
   color: var(--color-text);
   padding: 20px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-spot) var(--color-paper);
 
   h2 {
     font-size: 1.25em;

@@ -76,7 +76,8 @@ class PageTurner extends HTMLElement {
       ? next
       : scrollingElement.scrollLeft + (next ? step : -step);
 
-    const scrollLeft = Math.round(Math.min(max, Math.max(min, value)) / step) * step;
+    const scrollLeft = Math.round(Math.min(max, Math.max(min, value)) / step) *
+      step;
     scrollingElement.scrollTop = 0;
 
     if (scrollLeft <= max) {

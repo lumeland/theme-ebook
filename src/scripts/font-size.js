@@ -39,9 +39,10 @@ class FontSize extends HTMLElement {
   }
 
   get size() {
-    const size = getComputedStyle(this.ownerDocument.documentElement).getPropertyValue(
-      "--font-size",
-    );
+    const size = getComputedStyle(this.ownerDocument.documentElement)
+      .getPropertyValue(
+        "--font-size",
+      );
 
     for (const [key, value] of this.sizes.entries()) {
       if (value === size) {
