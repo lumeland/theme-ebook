@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="{{ lang }}">
   <head>
     <meta charset="utf-8">
     <meta name="generator" content="The hands of the scribes" />
@@ -17,6 +17,17 @@
     <link rel="stylesheet" href="/styles.css">
     <script type="module" src="/scripts/invoker.js"></script>
     <script type="module" src="/scripts/main.js"></script>
+
+    <script>
+    {
+      let value = localStorage.getItem("book_state") || "{}";
+      value = JSON.parse(value);
+      value = value?.fontSize;
+      if (value) {
+        document.documentElement.style.setProperty("--font-size", value);
+      }
+    }
+    </script>
 
     <script type="application/ld+json">
       {{ JSON.stringify({
@@ -59,26 +70,29 @@
         <h2>Table of Contents</h2>
 
         <ol>
-          {{ for item of toc }}
-          <li>
-            <a href="#{{ item.slug }}">{{ item.text }}</a>
+        {{ for page of search.pages() }}
+          {{ for item of page?.toc }}
+            <li class="{{ page.url === url ? 'is-current' : '' }}">
+              <a href="{{ page.url }}#{{ item.slug }}">{{ item.text }}</a>
 
-            {{ if item.children.length }}
-            <ol>
-              {{ for child of item.children }}
-              <li>
-                <a href="#{{ child.slug }}">{{ child.text }}</a>
-              </li>
-              {{ /for }}
-            </ol>
-            {{ /if }}
-          </li>
-          {{ /for }}
+              {{ if item.children.length }}
+              <ol>
+                {{ for child of item.children }}
+                <li>
+                  <a href="{{ page.url }}#{{ child.slug }}">{{ child.text }}</a>
+                </li>
+                {{ /for }}
+              </ol>
+              {{ /if }}
+            </li>
+            {{ /for }}
+        {{ /for }}
         </ol>
       </nav>
     </dialog>
 
     <div class="book">
+      {{ if url === "/" }}
       <aside class="page">
         <h2>How to read</h2>
         <p>
@@ -106,29 +120,19 @@
         <h1>{{ title }}</h1>
         <p>{{ author }}</p>
       </header>
+      {{ /if }}
 
       {{ content }}
 
-      <div class="page"></div>
+      {{ set nextPage = search.nextPage(url) }}
 
-      <div class="bookmark">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          version="1.1"
-          x="0px"
-          y="0px"
-          width="100%"
-          height="100%"
-          viewBox="0 0 40 80"
-          xml:space="preserve"
-        >
-          <g>
-            <polygon points="0,0 0,80 20,70 40,80 40,0" />
-          </g>
-        </svg>
-      </div>
-      <!-- bookmark -->
+      {{ if nextPage }}
+      <aside class="page">
+        <a href="{{ nextPage.url }}#">Next</a>
+      </aside>
+      {{ /if }}
+
+      <div class="page"></div>
     </div>
     <!-- book -->
 

@@ -84,6 +84,14 @@
     p {
       text-indent: 0;
     }
+
+    p:has(cite) {
+      font-style: normal;
+      margin-top: 1em;
+      &::before {
+        content: "—";
+      }
+    }
   }
 
   table {

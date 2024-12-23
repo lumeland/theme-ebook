@@ -119,8 +119,5 @@ font-size {
       text-decoration: underline;
       color: var(--color-text);
     }
-    &:visited {
-      color: var(--color-visited);
-    }
   }
 }

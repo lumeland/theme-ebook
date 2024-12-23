@@ -1,3 +1,5 @@
+import * as state from "./state.js";
+
 class FontSize extends HTMLElement {
   sizes = new Map([
     ["small", "1rem"],
@@ -8,7 +10,8 @@ class FontSize extends HTMLElement {
   ]);
 
   connectedCallback() {
-    this.size = "normal";
+    const initSize = this.size;
+    this.size = initSize;
 
     this.querySelectorAll("button").forEach((button) => {
       button.style.fontSize = this.sizes.get(button.dataset.size);
@@ -31,9 +34,12 @@ class FontSize extends HTMLElement {
         button.setAttribute("aria-pressed", "false");
       }
     });
+
+    state.set("fontSize", this.sizes.get(size));
   }
+
   get size() {
-    const size = this.ownerDocument.documentElement.style.getProperty(
+    const size = getComputedStyle(this.ownerDocument.documentElement).getPropertyValue(
       "--font-size",
     );
 

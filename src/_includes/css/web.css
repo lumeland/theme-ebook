@@ -67,6 +67,10 @@ a, button {
     outline-offset: 4px;
   }
 }
+:target {
+  outline: solid 1px var(--color-focus);
+  outline-offset: 4px;
+}
 
 page-turner {
   position: fixed;
@@ -104,6 +108,12 @@ page-turner {
     }
     &:focus {
       outline: 0;
+    }
+
+    &:disabled {
+      cursor: default;
+      opacity: 0;
+      pointer-events: none;
     }
 
     svg {
