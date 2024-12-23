@@ -36,7 +36,7 @@ understand.
   July 2020
 </footer>
 
-# Week 1 {.chapter}
+# Week 1{.page}
 
 ## The Woman Who Vanished
 
@@ -1874,4 +1874,4 @@ in 1936. The other is
 of the San Francisco earthquake and fire in 1906. The original is presented on
 the next page.
 
-![](img/genthe-fire.png)
+![](img/genthe-fire.png){.page}

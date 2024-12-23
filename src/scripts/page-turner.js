@@ -1,4 +1,5 @@
 const scrollingElement = document.body;
+const keyStorage = "lastPosition";
 
 class PageTurner extends HTMLElement {
   connectedCallback() {
@@ -23,11 +24,23 @@ class PageTurner extends HTMLElement {
         } else {
           this.go(false);
         }
-      } else if (event.key === " ") {
+      } else if (event.key === " " && !event.metaKey && !event.ctrlKey) {
         event.preventDefault();
         this.go(!event.shiftKey);
       }
     });
+
+    // Restore the last position
+    if (!document.location.hash || document.location.hash !== "#") {
+      const position = lastPosition();
+
+      if (position > 0) {
+        scrollingElement.style.scrollBehavior = "auto";
+        scrollingElement.scrollTop = 0;
+        scrollingElement.scrollLeft = position;
+        scrollingElement.style.scrollBehavior = "smooth";
+      }
+    }
 
     let timeout;
 
@@ -35,6 +48,7 @@ class PageTurner extends HTMLElement {
       clearTimeout(timeout);
       timeout = setTimeout(() => {
         this.go(scrollingElement.scrollLeft);
+        store(scrollingElement.scrollLeft);
       }, 250);
     });
   }
@@ -59,3 +73,15 @@ class PageTurner extends HTMLElement {
 }
 
 customElements.define("page-turner", PageTurner);
+
+function store(scrollLeft) {
+  const current = localStorage.getItem(keyStorage) || "{}";
+  const value = JSON.parse(current);
+  value[document.location.pathname] = scrollLeft;
+  localStorage.setItem(keyStorage, JSON.stringify(value));
+}
+
+function lastPosition() {
+  const current = localStorage.getItem(keyStorage) || "{}";
+  return JSON.parse(current)[document.location.pathname] || 0;
+}

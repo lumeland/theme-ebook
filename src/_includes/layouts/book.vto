@@ -62,6 +62,16 @@
           {{ for item of toc }}
           <li>
             <a href="#{{ item.slug }}">{{ item.text }}</a>
+
+            {{ if item.children.length }}
+            <ol>
+              {{ for child of item.children }}
+              <li>
+                <a href="#{{ child.slug }}">{{ child.text }}</a>
+              </li>
+              {{ /for }}
+            </ol>
+            {{ /if }}
           </li>
           {{ /for }}
         </ol>
@@ -69,7 +79,7 @@
     </dialog>
 
     <div class="book">
-      <div class="page">
+      <aside class="page">
         <h2>How to read</h2>
         <p>
           <i>On a phone:</i>
@@ -86,16 +96,16 @@
           <br />Print it out
         </p>
         <p>Basically, <small>everything works</small></p>
-      </div>
+      </aside>
 
-      <!-- tutorial -->
+      {{ if cover }}
+      <img class="page" src="{{ cover }}" alt="Book cover" />
+      {{ /if }}
 
-      <img class="cover" src="{{ cover }}" alt="Book cover" />
-
-      <div class="title">
+      <header class="page">
         <h1>{{ title }}</h1>
         <p>{{ author }}</p>
-      </div>
+      </header>
 
       {{ content }}
 

@@ -14,17 +14,32 @@
     max-width: var(--column-width);
   }
 
-  h2 {
-    margin: 4em 0 1em 0;
-    padding: 0;
+  h1, h2, h3, h4 {
+    margin: 4em 0 1rem 0;
     break-inside: avoid;
     break-before: avoid;
     font-family: var(--font-heading);
-    font-style: italic;
-    font-size: 1.5em;
-    font-weight: 500;
-    line-height: 1.2;
+    font-weight: 600;
+    line-height: 1.1;
     text-wrap: balance;
+
+    + :where(h1, h2, h3, h4) {
+      margin-top: 0;
+    }
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 1.75em;
+    font-style: italic;
+  }
+  h3 {
+    font-size: 1.25em;
+  }
+  h4 {
+    font-size: 1.15em;
+    font-style: italic;
   }
 
   a {
@@ -71,19 +86,10 @@
     }
   }
 
-  code, kbd {
-    font-family: var(--font-code);
-    font-size: 0.8em;
-  }
-
-  pre > code {
-    display: block;
-    overflow: auto;
-  }
-
   table {
     border-collapse: collapse;
     width: 100%;
+    margin: 2em 0;
   }
   th, td {
     text-align: left;
@@ -105,12 +111,9 @@
 
   img {
     display: block;
-    break-before: column;
-    break-after: column;
-    width: var(--column-width);
-    height: var(--column-height);
-    overflow: hidden;
-    object-fit: contain;
+    margin: 2rem auto;
+    max-width: 100%;
+    max-height: var(--column-height);
   }
 
   hr {
@@ -121,16 +124,33 @@
     border-bottom: 1px solid var(--color-spot);
   }
 
-  > h1,
   .title,
-  .chapter,
   .page {
     break-inside: avoid;
-    break-after: always;
-    break-before: always;
+    break-after: column;
+    break-before: column;
     width: var(--column-width);
     height: var(--column-height);
     padding: 1px;
+    margin: 0;
+  }
+
+  .page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+      text-indent: 0;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 0;
+    }
+  }
+
+  img.page {
+    object-fit: contain;
+    margin: 0;
   }
 
   .title {
@@ -145,37 +165,12 @@
       font-weight: 500;
       font-variant: small-caps;
       font-variant-caps: small-caps;
+      margin: 0;
     }
 
     p {
       margin: 2em 0;
       font-size: 1.5em;
     }
-  }
-
-  > h1,
-  .chapter {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 3em;
-    font-weight: 500;
-    font-feature-settings: "kern", "liga", "smcp", "ss11";
-    font-variant: small-caps;
-    font-variant-caps: small-caps;
-    text-align: center;
-    text-transform: lowercase;
-  }
-
-  .bookmark {
-    position: absolute;
-    display: none;
-    top: 0;
-    left: calc(var(--column-width) / 2);
-    width: 2rem;
-    height: 4rem;
-    transform: translateX(-50%);
-    fill: var(--color-spot);
-    z-index: 2;
   }
 }

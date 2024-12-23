@@ -1,6 +1,7 @@
 import postcss from "lume/plugins/postcss.ts";
 import basePath from "lume/plugins/base_path.ts";
 import metas from "lume/plugins/metas.ts";
+import prism from "lume/plugins/prism.ts";
 import { Options as SitemapOptions, sitemap } from "lume/plugins/sitemap.ts";
 import { favicon, Options as FaviconOptions } from "lume/plugins/favicon.ts";
 import {
@@ -36,13 +37,17 @@ export default function (userOptions?: Options) {
   const options = merge(defaults, userOptions);
 
   return (site: Lume.Site) => {
-    site.use(postcss())
+    site
+      .use(postcss())
       .use(basePath())
       .use(metas())
       .use(sitemap(options.sitemap))
       .use(favicon(options.favicon))
       .use(googleFonts(options.googleFonts as GoogleFontsOptions))
-      .use(toc())
+      .use(prism())
+      .use(toc({
+        level: 1,
+      }))
       .copy("scripts")
       .copy("img")
       .remoteFile(

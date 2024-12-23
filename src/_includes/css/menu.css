@@ -9,7 +9,7 @@
   width: var(--button-size);
   height: var(--button-size);
   cursor: pointer;
-  background: var(--color-paper);
+  background: none;
   border: 1px solid currentColor;
   z-index: 3;
   color: var(--color-spot);

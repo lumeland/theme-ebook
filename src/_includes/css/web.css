@@ -16,6 +16,18 @@
   --color-visited: oklch(55% 0.05 24);
   --color-focus: oklch(60% 0.2 24 / 0.1);
   --button-size: 50px;
+
+  /* Code colors */
+  --code-text: var(--color-text);
+  --code-comment: slategray;
+  --code-token-1: hsl(0, 90%, 35%);
+  --code-token-2: hsl(300, 100%, 30%);
+  --code-token-3: hsl(210, 100%, 40%);
+  --code-token-4: hsl(140, 100%, 25%);
+  --code-inserted: hsl(80, 90%, 30%);
+  --code-deleted: hsl(327, 90%, 30%);
+  --code-border: var(--color-line);
+  --code-background: var(--color-paper);
 }
 
 html {
@@ -65,7 +77,7 @@ page-turner {
   height: 0;
 
   button {
-    height: 100vh;
+    height: calc(100vh - 40px); /* Dont cover horizontal scroll */
     width: max(var(--column-gap), 100px);
     border: none;
     background: none;
@@ -89,6 +101,9 @@ page-turner {
         var(--color-focus) 50px,
         transparent 50px
       ) no-repeat;
+    }
+    &:focus {
+      outline: 0;
     }
 
     svg {
