@@ -3,10 +3,14 @@ import CMS from "lume/cms/mod.ts";
 const cms = CMS();
 
 cms.document({
-  name: "Site settings",
-  description: "Default settings for the site",
+  name: "Book info",
+  description: "Information about a book",
   store: "src:_data.yml",
   fields: [
+    "title: text",
+    "description: text",
+    "author: text",
+    "cover: file",
     "lang: text",
     {
       name: "metas",
@@ -24,16 +28,14 @@ cms.document({
 });
 
 cms.document({
-  name: "Homepage",
-  description: "Main page of the site",
-  store: "src:index.vto",
+  name: "Book",
+  description: "The whole book content",
+  store: "src:index.md",
   fields: [
-    "layout: hidden",
-    "title: text",
-    "content: code",
+    "content: markdown",
   ],
 });
 
-cms.upload("uploads: Uploaded files", "src:uploads");
+cms.upload("images", "src:img");
 
 export default cms;

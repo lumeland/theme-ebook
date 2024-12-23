@@ -3,7 +3,7 @@ lang: en
 title: Annabel Scheme and the Adventure of the New Golden Gate
 description: A web book about things
 author: Robin Sloan
-cover: img/cover.png
+cover: /img/cover.png
 layout: layouts/book.vto
 
 metas:
