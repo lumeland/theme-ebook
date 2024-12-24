@@ -49,11 +49,13 @@ export default function (userOptions?: Options) {
         level: 1,
       }))
       .copy("scripts")
+      .data("layout", "layouts/book.vto")
       .copy("img")
       .remoteFile(
         "scripts/invoker.js",
-        "https://cdn.jsdelivr.net/npm/invokers-polyfill@latest",
+        "https://cdn.jsdelivr.net/npm/invokers-polyfill@0.4.6",
       );
+
     site.hooks.markdownIt((md) => {
       md.options.linkify = true;
       md.options.typographer = true;

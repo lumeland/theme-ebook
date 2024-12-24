@@ -27,6 +27,7 @@
   }
   h1 {
     font-size: 2.5em;
+    margin-top: var(--column-height);
   }
   h2 {
     font-size: 1.75em;
@@ -100,9 +101,15 @@
     p:has(cite) {
       font-style: normal;
       margin-top: 1em;
+      font-size: 0.85em;
+
       &::before {
         content: "—";
       }
+    }
+
+    cite {
+      font-style: normal;
     }
   }
 
@@ -171,6 +178,10 @@
   img.page {
     object-fit: contain;
     margin: 0;
+  }
+
+  .page-break {
+    margin-top: var(--column-height);
   }
 
   .page-next {

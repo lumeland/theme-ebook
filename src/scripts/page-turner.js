@@ -71,6 +71,11 @@ class PageTurner extends HTMLElement {
         state.set("position", scrollingElement.scrollLeft);
       }, 250);
     });
+
+    // Reset on pagenext
+    document.querySelector(".page-next")?.addEventListener("click", () => {
+      state.set("position", 0);
+    });
   }
 
   go(next = true) {

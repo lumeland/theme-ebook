@@ -1,10 +1,9 @@
-lang: en
+lang: gl
 
-title: Annabel Scheme and the Adventure of the New Golden Gate
-description: A web book about things
-author: Robin Sloan
-cover: /img/cover.png
-layout: layouts/book.vto
+title: Follas novas
+description: Versos en Gallego
+author: Rosalía de Castro
+cover: /img/cover.jpg
 
 metas:
   site: =title
