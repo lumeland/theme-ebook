@@ -34,18 +34,27 @@ class PageTurner extends HTMLElement {
     });
 
     // Restore the last position
-    if (!document.location.hash && !document.location.href.endsWith("#")) {
-      let position = state.get("position");
+    if (!document.location.hash) {
+      const bookmark = state.get("bookmark");
+      const bookmarkEl = document.querySelector(
+        `.header-anchor[href="${bookmark}"]`,
+      );
 
-      if (position === "end") {
-        position = scrollingElement.scrollWidth - scrollingElement.clientWidth;
-      }
-
-      if (position > 0) {
+      if (bookmarkEl) {
+        bookmarkEl.classList.add("is-bookmark");
         scrollingElement.style.scrollBehavior = "auto";
         scrollingElement.scrollTop = 0;
-        scrollingElement.scrollLeft = position;
+        bookmarkEl.scrollIntoView();
         scrollingElement.style.scrollBehavior = "smooth";
+      } else {
+        const position = state.get("position");
+
+        if (position > 0) {
+          scrollingElement.style.scrollBehavior = "auto";
+          scrollingElement.scrollTop = 0;
+          scrollingElement.scrollLeft = position;
+          scrollingElement.style.scrollBehavior = "smooth";
+        }
       }
     } else {
       state.set("position", scrollingElement.scrollLeft);

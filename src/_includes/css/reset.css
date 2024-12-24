@@ -1,0 +1,50 @@
+html {
+  color: var(--color-text);
+  background: var(--color-paper);
+  text-rendering: optimizelegibility;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden; /* We want to scroll the body */
+}
+body {
+  scroll-behavior: smooth;
+  scroll-padding: var(--column-gap);
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 0;
+  font-size: var(--font-size);
+  font-family: var(--font-text);
+  line-height: 1.4;
+  font-weight: 400;
+  min-height: 100vh;
+}
+strong, b, dt, th {
+  font-weight: var(--font-text-bold);
+}
+
+::selection {
+  background: var(--color-selection);
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+a, button {
+  &:focus {
+    outline: 0;
+  }
+  &:focus-visible {
+    outline: solid 1px var(--color-focus);
+    outline-offset: 4px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-heading-bold);
+
+  &:target {
+    outline: solid 1px var(--color-focus);
+    outline-offset: 4px;
+  }
+}

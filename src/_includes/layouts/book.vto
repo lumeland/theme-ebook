@@ -89,31 +89,27 @@
 
     <div class="book">
       {{ if url === "/" }}
-      <aside class="page">
-        <h2>How to read</h2>
-        <p>
-          <i>On a phone:</i>
-          <br />Tap the edges of the page
-        </p>
-        <p>
-          <i>On a computer:</i>
-          <br />Click the edges of the page, or use the arrow keys,
-          the&nbsp;space&nbsp;bar, the&nbsp;trackpad,
-          or&nbsp;the&nbsp;scroll&nbsp;wheel
-        </p>
-        <p>
-          <i>On paper:</i>
-          <br />Print it out
-        </p>
-        <p>Basically, <small>everything works</small></p>
-      </aside>
-
       {{ if cover }}
-      <img class="page" src="{{ cover }}" alt="Book cover" />
+      <a href="#book-instructions" class="page">
+        <img src="{{ cover }}" alt="Book cover" />
+      </a>
       {{ /if }}
 
+      <aside class="page" id="book-instructions">
+        <h2>How to read</h2>
+        <dl>
+          <dt>On a phone:</dt>
+          <dd>Tap the edges of the page</dd>
+
+          <dt>On a computer:</dt>
+          <dd>Click the edges of the page, or use the arrow keys,
+          the space bar, the trackpad,
+          or the scroll wheel</dd>
+        </dl>
+      </aside>
+
       <header class="page">
-        <h1></h1>
+        <h1>{{ title }}</h1>
         <p>{{ author }}</p>
       </header>
       {{ /if }}

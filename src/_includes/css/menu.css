@@ -114,6 +114,15 @@ font-size {
   scrollbar-width: thin;
   scrollbar-color: var(--color-spot) var(--color-paper);
 
+  ol {
+    list-style-type: disc;
+    padding-left: 1em;
+
+    ol {
+      list-style-type: circle;
+    }
+  }
+
   h2 {
     font-size: 1.25em;
     margin: 0;
