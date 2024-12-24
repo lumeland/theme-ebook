@@ -1,8 +1,8 @@
-name: Build demo
+name: Publish on GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 permissions:
   contents: read
@@ -19,8 +19,18 @@ jobs:
 
       - name: Setup Deno environment
         uses: denoland/setup-deno@v2
-        with:
-          deno-version: v2.x
 
-      - name: Build GitHub Pages with Lume
-        uses: lumeland/build/gh-pages@main
+      - name: Build site
+        run: deno task build --location=https://lumeland.github.io/theme-ebook
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "_site"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
