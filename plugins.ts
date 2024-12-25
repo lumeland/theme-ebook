@@ -1,4 +1,4 @@
-import postcss from "lume/plugins/postcss.ts";
+import lightningcss from "lume/plugins/lightningcss.ts";
 import basePath from "lume/plugins/base_path.ts";
 import metas from "lume/plugins/metas.ts";
 import prism from "lume/plugins/prism.ts";
@@ -38,7 +38,7 @@ export default function (userOptions?: Options) {
 
   return (site: Lume.Site) => {
     site
-      .use(postcss())
+      .use(lightningcss())
       .use(basePath())
       .use(metas())
       .use(sitemap(options.sitemap))
