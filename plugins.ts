@@ -9,6 +9,7 @@ import {
   Options as GoogleFontsOptions,
 } from "lume/plugins/google_fonts.ts";
 import toc from "https://deno.land/x/lume_markdown_plugins@v0.7.1/toc.ts";
+import footnotes from "https://deno.land/x/lume_markdown_plugins@v0.7.1/footnotes.ts";
 import { merge } from "lume/core/utils/object.ts";
 
 import "lume/types.ts";
@@ -48,6 +49,7 @@ export default function (userOptions?: Options) {
       .use(toc({
         level: 1,
       }))
+      .use(footnotes())
       .copy("scripts")
       .data("layout", "layouts/book.vto")
       .copy("img")
