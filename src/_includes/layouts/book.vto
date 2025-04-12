@@ -12,7 +12,7 @@
       content="black-translucent"
     >
 
-    <title> by {{ author }}</title>
+    <title>{{ title }} by {{ author }}</title>
     <link rel="stylesheet" href="/styles.css">
     <script type="module" src="/scripts/invoker.js"></script>
     <script type="module" src="/scripts/main.js"></script>
@@ -117,6 +117,19 @@
       {{ /if }}
 
       {{ content }}
+
+      {{ if it.footnotes.length }}
+      <aside role="note" class="page footnotes">
+        <dl>
+          {{ for note of footnotes }}
+          <div id="{{ note.id }}" class="footnote">
+            <dt><a href="#{{ note.refId }}">{{ note.label }}</a></dt>
+            <dd>{{ note.content }}</dd>
+          </div>
+          {{ /for }}
+        </dl>
+      </aside>
+      {{ /if }}
 
       {{ set nextPage = search.nextPage(url, "", "url") }}
 

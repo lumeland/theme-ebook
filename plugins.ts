@@ -1,4 +1,4 @@
-import postcss from "lume/plugins/postcss.ts";
+import lightningcss from "lume/plugins/lightningcss.ts";
 import basePath from "lume/plugins/base_path.ts";
 import metas from "lume/plugins/metas.ts";
 import prism from "lume/plugins/prism.ts";
@@ -9,6 +9,7 @@ import {
   Options as GoogleFontsOptions,
 } from "lume/plugins/google_fonts.ts";
 import toc from "https://deno.land/x/lume_markdown_plugins@v0.7.1/toc.ts";
+import footnotes from "https://deno.land/x/lume_markdown_plugins@v0.7.1/footnotes.ts";
 import { merge } from "lume/core/utils/object.ts";
 
 import "lume/types.ts";
@@ -38,7 +39,7 @@ export default function (userOptions?: Options) {
 
   return (site: Lume.Site) => {
     site
-      .use(postcss())
+      .use(lightningcss())
       .use(basePath())
       .use(metas())
       .use(sitemap(options.sitemap))
@@ -49,6 +50,7 @@ export default function (userOptions?: Options) {
         level: 1,
       }))
       .add("scripts")
+      .use(footnotes())
       .data("layout", "layouts/book.vto")
       .add("img")
       .add([".css"])
