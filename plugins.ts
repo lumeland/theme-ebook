@@ -48,9 +48,10 @@ export default function (userOptions?: Options) {
       .use(toc({
         level: 1,
       }))
-      .copy("scripts")
+      .add("scripts")
       .data("layout", "layouts/book.vto")
-      .copy("img")
+      .add("img")
+      .add([".css"])
       .remoteFile(
         "scripts/invoker.js",
         "https://cdn.jsdelivr.net/npm/invokers-polyfill@0.4.6",
